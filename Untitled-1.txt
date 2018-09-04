@@ -1,0 +1,14 @@
+        <a href="sub_components/sign_in.php">    
+                    <div class="single_block">
+                    <div class="container_of_user_image">    
+                        <img src="Images/a.jpg" alt="admin_image" class="circle_image"/>
+                    </div>        
+                    <div class="select_user_type_password">Administrator</div>
+</div>  
+                </a>    
+                <a href="#">
+                    <div class="container_of_user_image">
+                        <img src="Images/a.jpg" alt="admin_image" class="circle_image"/>        
+                    </div>
+                    <!-- <div class="select_user_type_password">User</div> -->
+                </a>

@@ -1,0 +1,11 @@
+PDOException: PDO::__construct(): php_network_getaddresses: getaddrinfo failed: No such host is known.  in C:\xampp\htdocs\Ariba Project\sub_components\database_connectivity.php:26
+Stack trace:
+#0 C:\xampp\htdocs\Ariba Project\sub_components\database_connectivity.php(26): PDO->__construct('mysql:host=127....', 'root', '')
+#1 C:\xampp\htdocs\Ariba Project\sub_components\database_connectivity.php(44): connect_pdo->__construct()
+#2 {main}
+
+Next PDOException: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: No such host is known.  in C:\xampp\htdocs\Ariba Project\sub_components\database_connectivity.php:26
+Stack trace:
+#0 C:\xampp\htdocs\Ariba Project\sub_components\database_connectivity.php(26): PDO->__construct('mysql:host=127....', 'root', '')
+#1 C:\xampp\htdocs\Ariba Project\sub_components\database_connectivity.php(44): connect_pdo->__construct()
+#2 {main}
